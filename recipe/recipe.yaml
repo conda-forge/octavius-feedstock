@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.3"
+  version: "0.9.3.1"
   python_min: "3.14"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/octavius/octavius-${{ version }}.tar.gz
-  sha256: 8a79f4387a288fad4fd3e10979aa1f7997b34d03ac0982b65aab175b74b9e44a
+  sha256: 914cac02fadc1ef198f81940aa8a264571b75efebb604d76a098f50a61aadb3c
 
 build:
   number: 0
