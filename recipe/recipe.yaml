@@ -29,7 +29,7 @@ requirements:
     - python >=${{ python_min }}
     - numpy >=2.4
     - scipy >=1.18
-    - astropy >=8.0
+    - astropy-base >=8.0
     - h5py >=3.16
     - numba >=0.65
     - mpi4py >=4.0
@@ -39,7 +39,9 @@ tests:
       imports:
         - octavius
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - requirements:
       run:
         - pip
